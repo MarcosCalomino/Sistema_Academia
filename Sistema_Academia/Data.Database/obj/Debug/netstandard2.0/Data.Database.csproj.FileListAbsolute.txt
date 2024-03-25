@@ -1,0 +1,13 @@
+D:\.Net\TP\TP2 New Version\Data.Database\bin\Debug\netstandard2.0\Data.Database.deps.json
+D:\.Net\TP\TP2 New Version\Data.Database\bin\Debug\netstandard2.0\Data.Database.dll
+D:\.Net\TP\TP2 New Version\Data.Database\bin\Debug\netstandard2.0\Data.Database.pdb
+D:\.Net\TP\TP2 New Version\Data.Database\bin\Debug\netstandard2.0\Business.Entities.dll
+D:\.Net\TP\TP2 New Version\Data.Database\bin\Debug\netstandard2.0\Business.Entities.pdb
+D:\.Net\TP\TP2 New Version\Data.Database\obj\Debug\netstandard2.0\Data.Database.csproj.AssemblyReference.cache
+D:\.Net\TP\TP2 New Version\Data.Database\obj\Debug\netstandard2.0\Data.Database.GeneratedMSBuildEditorConfig.editorconfig
+D:\.Net\TP\TP2 New Version\Data.Database\obj\Debug\netstandard2.0\Data.Database.AssemblyInfoInputs.cache
+D:\.Net\TP\TP2 New Version\Data.Database\obj\Debug\netstandard2.0\Data.Database.AssemblyInfo.cs
+D:\.Net\TP\TP2 New Version\Data.Database\obj\Debug\netstandard2.0\Data.Database.csproj.CoreCompileInputs.cache
+D:\.Net\TP\TP2 New Version\Data.Database\obj\Debug\netstandard2.0\Data.Database.csproj.CopyComplete
+D:\.Net\TP\TP2 New Version\Data.Database\obj\Debug\netstandard2.0\Data.Database.dll
+D:\.Net\TP\TP2 New Version\Data.Database\obj\Debug\netstandard2.0\Data.Database.pdb

@@ -1,0 +1,12 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Comision.cs~RF1096b27a.TMP" />
+    <None Remove="Especialidad.cs~RF10a0b8d3.TMP" />
+  </ItemGroup>
+
+</Project>

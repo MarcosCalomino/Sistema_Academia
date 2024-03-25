@@ -1,0 +1,7 @@
+Data.Database 	  --> Proyecto biblioteca de clases 2.0
+Business.Entities --> Proyecto biblioteca de clases 2.0
+Business.Logic    --> Proyecto biblioteca de clases 2.0
+Util 		  --> Proyecto biblioteca de clases 2.0
+UI.Consola	  --> .NET Framework 4.8
+UI.Desktop	  --> Windos Forms .NET 8.0
+UI.Web 		  --> Web Forms .NET Framework 4.8

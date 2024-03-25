@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="CursoDocenteLogic.cs~RF5836d32f.TMP" />
+    <None Remove="EspecialidadLogic.cs~RF23cd8ea1.TMP" />
+    <None Remove="EspecialidadLogic.cs~RF23cf12b0.TMP" />
+    <None Remove="UsuarioLogic.cs~RF1cb28c9d.TMP" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Business.Entities\Business.Entities.csproj" />
+    <ProjectReference Include="..\Data.Database\Data.Database.csproj" />
+  </ItemGroup>
+
+</Project>

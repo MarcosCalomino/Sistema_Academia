@@ -1,0 +1,74 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="AlumnosInscripciones.cs~RF62ea50a2.TMP" />
+    <None Remove="App.config~RF1ec6f379.TMP" />
+    <None Remove="bmi51zub.nyh~" />
+    <None Remove="ComisionDesktop.cs~RF3efaeb0a.TMP" />
+    <None Remove="Comisiones.cs~RF3ec7bbe4.TMP" />
+    <None Remove="Comisiones.cs~RF3eccdf42.TMP" />
+    <None Remove="CursoDesktop.cs~RF4e07dfbb.TMP" />
+    <None Remove="Cursos.cs~RF4d50c6af.TMP" />
+    <None Remove="DocenteCursoDesktop.cs~RF52b4b37c.TMP" />
+    <None Remove="DocentesCursos.cs~RF52b0aff5.TMP" />
+    <None Remove="EspecialidadDesktop.cs~RF23eb2b70.TMP" />
+    <None Remove="EspecialidadDesktop.cs~RF23f482cc.TMP" />
+    <None Remove="Especialidades.cs~RF23c64a95.TMP" />
+    <None Remove="IndexAlumno.cs~RF6d94cd36.TMP" />
+    <None Remove="IndexAlumno.cs~RF6db56822.TMP" />
+    <None Remove="InscribirseA.cs~RF6f0781b9.TMP" />
+    <None Remove="Loguin.cs~RF68502f0e.TMP" />
+    <None Remove="MateriaDesktop.cs~RF42a9afdb.TMP" />
+    <None Remove="Materias.cs~RF427dc3b7.TMP" />
+    <None Remove="oycb1yud.42x~" />
+    <None Remove="PersonaDesktop.cs~RF3a4afc2e.TMP" />
+    <None Remove="PersonaDesktop.cs~RF3a5be864.TMP" />
+    <None Remove="Personas.cs~RF38a1f720.TMP" />
+    <None Remove="Personas.cs~RF38ca0cf7.TMP" />
+    <None Remove="Personas.cs~RF38ccd6c5.TMP" />
+    <None Remove="PlanDesktop.cs~RF34020150.TMP" />
+    <None Remove="Program.cs~RF23d717ca.TMP" />
+    <None Remove="Program.cs~RF257e202d.TMP" />
+    <None Remove="Program.cs~RF33e0d7ef.TMP" />
+    <None Remove="Program.cs~RF42a0707c.TMP" />
+    <None Remove="Program.cs~RF51764b76.TMP" />
+    <None Remove="Program.cs~RF736f0130.TMP" />
+    <None Remove="Usuarios.cs~RF1d328fab.TMP" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Guna.UI2.WinForms" Version="2.0.4.6" />
+    <PackageReference Include="iTextSharp" Version="5.5.13.3" />
+    <PackageReference Include="itextsharp.xmlworker" Version="5.5.13.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Business.Entities\Business.Entities.csproj" />
+    <ProjectReference Include="..\Business.Logic\Business.Logic.csproj" />
+    <ProjectReference Include="..\Util\Util.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="Properties\Resources.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+
+</Project>

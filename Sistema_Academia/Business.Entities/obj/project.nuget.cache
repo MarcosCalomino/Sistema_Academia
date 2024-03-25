@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "mqddpVkS3GL0eQclqmO5fIPa6sRqNMdc0nw0xMoaANde6ed32lDLkOUD+a6TtaD/R6zhJT8PJtz1TdsOMUw1PA==",
+  "success": true,
+  "projectFilePath": "D:\\.Net\\TP\\TP2 New Version\\Business.Entities\\Business.Entities.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\marco\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\marco\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

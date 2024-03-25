@@ -1,0 +1,55 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="UI.Web.Site" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Academia</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+<body>
+    <form id="bodyForm" runat="server">
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-light">
+            <div class="container">
+                <a class="navbar-brand" runat="server" href="~/Index"><%--Nombre de la aplicación--%></a> 
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" title="Alternar navegación" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse d-sm-inline-flex justify-content-between">
+                    <ul class="navbar-nav flex-grow-1">
+                        <li class="nav-item"><a id="PersonasAcceso" class="nav-link" runat="server" href="Personas.aspx">Personas</a></li>
+                        <li class="nav-item"><a id="EspecialidadesAcceso" class="nav-link" runat="server" href="Especialidades.aspx">Especialidades</a></li>
+                        <li class="nav-item"><a id="UsuariosAcceso" class="nav-link" runat="server" href="Usuarios.aspx">Usuarios</a></li>
+                        <li class="nav-item"><a id="PlanesAcceso" class="nav-link" runat="server" href="Planes.aspx">Planes</a></li>
+                        <li class="nav-item"><a id="ComisionesAcceso" class="nav-link" runat="server" href="Comisiones.aspx">Comisiones</a></li>
+                        <li class="nav-item"><a id="MateriaAcceso" class="nav-link" runat="server" href="Materias.aspx">Materias</a></li>
+                        <li class="nav-item"><a id="DocentesCursosAcceso" class="nav-link" runat="server" href="DocentesCursos.aspx">Docentes-cursos</a></li>
+                        <li class="nav-item"><a id="CursosAcceso" class="nav-link" runat="server" href="Cursos.aspx">Cursos</a></li>
+                        <li class="nav-item"><a id="AlumnosInscripcionesAcceso" class="nav-link" runat="server" href="AlumnosInscripciones.aspx">Alumnos-inscripciones</a></li>                       
+                     </ul>
+                     <ul class="navbar-nav ml-auto">
+                         <li class="nav-item">
+                            <li class="nav-item"><asp:LinkButton id="CerrarSession" class="nav-link fw-bold" runat="server" OnClick="CerrarSession_Click">Cerrar Session</asp:LinkButton></li>
+                         </li>
+                     </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="container body-content">
+            <asp:ContentPlaceHolder ID="bodyContentPlaceHolder" runat="server">
+                <!--Acá va el contenido de las paginas que tienen como master page a esta pagina(Site.Master), poner atencion en ID="MainContent", dicho ID
+            tmb se encuentra en las paginas que tienen como master page a esta pagina-->
+            </asp:ContentPlaceHolder>
+            <hr />
+            <footer>
+                <p>&copy; <%: DateTime.Now.Year %> - MC Systems</p>
+            </footer>
+        </div>
+    </form>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+</body>
+</html>

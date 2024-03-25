@@ -1,0 +1,10 @@
+D:\.Net\TP\TP2 New Version\Business.Entities\bin\Debug\netstandard2.0\Business.Entities.deps.json
+D:\.Net\TP\TP2 New Version\Business.Entities\bin\Debug\netstandard2.0\Business.Entities.dll
+D:\.Net\TP\TP2 New Version\Business.Entities\bin\Debug\netstandard2.0\Business.Entities.pdb
+D:\.Net\TP\TP2 New Version\Business.Entities\obj\Debug\netstandard2.0\Business.Entities.csproj.AssemblyReference.cache
+D:\.Net\TP\TP2 New Version\Business.Entities\obj\Debug\netstandard2.0\Business.Entities.GeneratedMSBuildEditorConfig.editorconfig
+D:\.Net\TP\TP2 New Version\Business.Entities\obj\Debug\netstandard2.0\Business.Entities.AssemblyInfoInputs.cache
+D:\.Net\TP\TP2 New Version\Business.Entities\obj\Debug\netstandard2.0\Business.Entities.AssemblyInfo.cs
+D:\.Net\TP\TP2 New Version\Business.Entities\obj\Debug\netstandard2.0\Business.Entities.csproj.CoreCompileInputs.cache
+D:\.Net\TP\TP2 New Version\Business.Entities\obj\Debug\netstandard2.0\Business.Entities.dll
+D:\.Net\TP\TP2 New Version\Business.Entities\obj\Debug\netstandard2.0\Business.Entities.pdb
